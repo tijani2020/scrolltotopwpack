@@ -4,7 +4,7 @@ import "./style.scss";
 const mybutton = document.getElementById("myBtn");
 
 
-// When the user scrolls down 20px from the top of the document, shows the btn
+// When the user scrolls down 20px from the top of the document, shows the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -21,6 +21,7 @@ mybutton.addEventListener('click', () => {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 })
+
 
 
 
