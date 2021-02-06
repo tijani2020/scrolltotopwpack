@@ -1,1 +1,1 @@
-console.log('Hi from vendor')
+console.log('hi from vendor')

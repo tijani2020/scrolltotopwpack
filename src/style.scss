@@ -1,4 +1,5 @@
 @import 'config';
+@import "~bootstrap/scss/bootstrap";
 
 * {
     margin: 0;
@@ -11,17 +12,6 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-}
-
-
-header {
-    height: 100px;
-    background-color: $hdr-bg-color;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
-   
 }
 
 section {
